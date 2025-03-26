@@ -1,9 +1,10 @@
 import '../css/Home.css';
+import Topbar from '../components/Topbar';
 
 function Home() {
     return (
         <div>
-            This is home
+            <Topbar />
         </div>
     )
 }
