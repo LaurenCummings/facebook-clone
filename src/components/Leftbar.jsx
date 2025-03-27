@@ -2,8 +2,8 @@ import '../css/Leftbar.css';
 
 function Leftbar() {
     return (
-        <div>
-
+        <div className="leftbar">
+            leftbar
         </div>
     )
 }
