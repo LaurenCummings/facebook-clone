@@ -2,6 +2,7 @@ import '../css/Rightbar.css';
 import gift from '../assets/gift.png';
 import ad from '../assets/ad.png';
 import person3 from '../assets/person/3.jpeg';
+import { Users } from '../dummyData';
 
 function Rightbar() {
     return (
