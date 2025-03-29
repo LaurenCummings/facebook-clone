@@ -3,6 +3,7 @@ import person1 from '../assets/person/1.jpeg';
 import like from '../assets/like.png';
 import heart from '../assets/heart.png';
 import { MoreVert } from '@mui/icons-material';
+import { Users } from '../dummyData';
 
 function Post({post}) {
     return (

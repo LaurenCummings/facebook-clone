@@ -1,7 +1,7 @@
 import '../css/Feed.css';
 import Share from '../components/Share';
 import Post from '../components/Post';
-import { Posts } from '../dummyData.js';
+import { Posts } from '../dummyData';
 
 function Feed() {
     return (
