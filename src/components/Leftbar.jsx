@@ -1,6 +1,8 @@
 import '../css/Leftbar.css';
 import { RssFeed, Chat, PlayCircle, Group, Bookmark, HelpOutline, WorkOutline, Event, School } from '@mui/icons-material'
 import person2 from '../assets/person/2.jpeg';
+import closeFriend from './closeFriend';
+import { Users } from '../dummyData';
 
 function Leftbar() {
     return (
@@ -47,6 +49,7 @@ function Leftbar() {
                 <button className="leftbarButton">Show More</button>
                 <hr className="leftbarHr" />
                 <ul className="leftbarFriendList">
+
                     <li className="leftbarFriend">
                         <img className="leftbarFriendImg" src={person2} alt="" />
                         <span className="leftbarFriendName">Jane Doe</span>

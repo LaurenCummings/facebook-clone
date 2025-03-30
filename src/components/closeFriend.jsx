@@ -1,11 +1,14 @@
-import '../css/closeFriend.css';
+import '../css/CloseFriend.css';
 
-function closeFriend() {
+function CloseFriend({user}) {
     return (
         <div>
-
+            <li className="leftbarFriend">
+                <img className="leftbarFriendImg" src={person2} alt="" />
+                <span className="leftbarFriendName">Jane Doe</span>
+            </li>
         </div>
     )
 }
 
-export default closeFriend;
+export default CloseFriend;
