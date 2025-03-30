@@ -5,10 +5,11 @@ import person3 from '../assets/person/3.jpeg';
 import { Users } from '../dummyData';
 import Online from '../components/Online';
 
-function Rightbar() {
-    return (
-        <div className="rightbar">
-            <div className="rightbarWrapper">
+function Rightbar({profile}) {
+
+    const HomeRightbar = () => {
+        return (
+            <>
                 <div className="birthdayContainer">
                     <img className="birthdayImg" src={gift} alt="" />
                     <span className="birthdayText">
@@ -22,6 +23,20 @@ function Rightbar() {
                         <Online key={u.id} user={u}/>
                     ))}
                 </ul>
+            </>
+        )
+    }
+
+    const ProfileRightbar = () => {
+        return (
+            <h1>Hey it's profile</h1>
+        )
+    }
+
+    return (
+        <div className="rightbar">
+            <div className="rightbarWrapper">
+                <HomeRightbar />
             </div>
         </div>
     )
