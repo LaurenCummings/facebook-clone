@@ -1,6 +1,5 @@
 import '../css/Leftbar.css';
 import { RssFeed, Chat, PlayCircle, Group, Bookmark, HelpOutline, WorkOutline, Event, School } from '@mui/icons-material'
-import person2 from '../assets/person/2.jpeg';
 import { Users } from '../dummyData';
 import CloseFriend from '../components/CloseFriend';
 
