@@ -4,8 +4,8 @@ function CloseFriend({user}) {
     return (
         <div>
             <li className="leftbarFriend">
-                <img className="leftbarFriendImg" src={person2} alt="" />
-                <span className="leftbarFriendName">Jane Doe</span>
+                <img className="leftbarFriendImg" src={user.profilePicture} alt="" />
+                <span className="leftbarFriendName">{user.username}</span>
             </li>
         </div>
     )
