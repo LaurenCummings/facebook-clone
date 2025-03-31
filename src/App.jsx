@@ -1,13 +1,14 @@
 import Profile from './pages/Profile';
 import Home from './pages/Home';
+import Login from './pages/Login';
 
 function App() {
 
   return (
     <div>
-      <Profile />
+      <Login />
     </div>
   )
 }
 
-export default App
+export default App;
